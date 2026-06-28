@@ -1,4 +1,4 @@
-# 🌡️ Climate Temperature Reconstruction — Kathmandu Station 1030
+#  Climate Temperature Reconstruction — Kathmandu Station 1030
 
 **Scientific Computing Mini Project**  
 Numerical Methods for Engineers · Tribhuvan University
@@ -9,7 +9,7 @@ Numerical Methods for Engineers · Tribhuvan University
 
 ---
 
-## 📋 Overview
+##  Overview
 
 This project reconstructs monthly temperature curves from sparse station data using four classical interpolation methods, then compares their accuracy through rigorous error analysis.
 
@@ -19,7 +19,7 @@ This project reconstructs monthly temperature curves from sparse station data us
 
 ---
 
-## 🎯 Syllabus Coverage
+##  Syllabus Coverage
 
 | Unit | Topic | Implementation |
 |------|-------|---------------|
@@ -35,7 +35,7 @@ This project reconstructs monthly temperature curves from sparse station data us
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ktm_climate_project/
@@ -63,7 +63,7 @@ ktm_climate_project/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repository
 
@@ -88,7 +88,7 @@ All results save automatically to `results/`.
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Methods compared
 
@@ -119,7 +119,7 @@ Warming rate: +0.74 °C per decade  (2004–2014)
 
 ---
 
-## 🔬 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 ### Runge's Phenomenon
 Newton Forward interpolation is a single high-degree polynomial. As degree increases, it oscillates wildly near the edges — the error can exceed 600°C at n=8. Cubic Spline avoids this by using piecewise cubics with smooth joins.
@@ -129,8 +129,8 @@ n pts | Newton RMSE  | Cubic RMSE
 ------|--------------|-----------
 4     |  7.13        |  0.56
 6     |  3.27        |  0.61
-8     | 412.48  ← 🔴 |  0.37
-10    | 111.86  ← 🔴 |  0.29
+8     | 412.48  ←    |  0.37
+10    | 111.86  ←    |  0.29
 ```
 
 ### Thomas Algorithm inside Cubic Spline
@@ -138,7 +138,7 @@ The cubic spline requires solving a tridiagonal system of n equations for the se
 
 ---
 
-## 📈 Figures
+##  Figures
 
 | Figure | Description |
 |--------|-------------|
@@ -149,7 +149,7 @@ The cubic spline requires solving a tridiagonal system of n equations for the se
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 numpy>=1.24
@@ -159,7 +159,7 @@ matplotlib>=3.6
 
 ---
 
-## 📚 References
+##  References
 
 1. Chapra, S.C., Canale, R.P. — *Numerical Methods for Engineers*, McGraw-Hill
 2. Open Data Nepal — [Mean Temperature, Kathmandu Station 1030](https://opendatanepal.com/dataset/mean-temperature-by-months-for-kathmandu-station-from-2004-to-2014)
@@ -167,8 +167,3 @@ matplotlib>=3.6
 
 ---
 
-## 👤 Author
-
-**[Your Name]**  
-B.E. [Your Program], [Your College]  
-Tribhuvan University, Nepal
