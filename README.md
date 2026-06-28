@@ -1,7 +1,7 @@
 #  Climate Temperature Reconstruction — Kathmandu Station 1030
 
 **Scientific Computing Mini Project**  
-Numerical Methods for Engineers · Tribhuvan University
+
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![NumPy](https://img.shields.io/badge/NumPy-1.24+-green.svg)](https://numpy.org)
